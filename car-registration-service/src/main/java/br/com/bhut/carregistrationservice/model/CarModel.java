@@ -1,10 +1,11 @@
 package br.com.bhut.carregistrationservice.model;
 
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
+@NoArgsConstructor @AllArgsConstructor
 @ToString
+@Builder
 public class CarModel {
 
     private String _id;

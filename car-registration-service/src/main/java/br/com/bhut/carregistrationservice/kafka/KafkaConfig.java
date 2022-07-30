@@ -1,7 +1,6 @@
 package br.com.bhut.carregistrationservice.kafka;
 
 import br.com.bhut.carregistrationservice.model.CarModel;
-import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +15,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-@RequiredArgsConstructor
 public class KafkaConfig {
 
     @Value(value = "${kafka.address:localhost:9092}")

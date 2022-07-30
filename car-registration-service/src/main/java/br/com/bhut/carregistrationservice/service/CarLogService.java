@@ -20,9 +20,9 @@ public class CarLogService {
 
         CarLogModel newCarLog = CarLogModel.convertToCarLog(carModel);
 
-        CarLogModel newCarlog = mongoTemplate.save(newCarLog);
+        mongoTemplate.save(newCarLog);
 
-        log.info("New Car Created");
+        log.info("New Car Log Created");
 
         return newCarLog;
     }

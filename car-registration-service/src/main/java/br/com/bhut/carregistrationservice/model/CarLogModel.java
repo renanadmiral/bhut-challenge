@@ -1,7 +1,9 @@
 package br.com.bhut.carregistrationservice.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,8 +12,9 @@ import java.util.Date;
 import java.util.UUID;
 
 @Getter
+@NoArgsConstructor @AllArgsConstructor
 @Builder
-@Document("registeredCarsLog")
+@Document(collection = "registeredCarsLog")
 public class CarLogModel {
 
     @Id

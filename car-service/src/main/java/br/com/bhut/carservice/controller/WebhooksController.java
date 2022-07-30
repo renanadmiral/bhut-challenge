@@ -2,6 +2,7 @@ package br.com.bhut.carservice.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebhooksController {
 
     @PostMapping("/carLog")
-    public void receiveLogWebhook() {
+    public void receiveLogWebhook(@RequestBody String message) {
 
-        log.info("Car registered successfully");
+        log.info("Webhook: " + message);
     }
 }
