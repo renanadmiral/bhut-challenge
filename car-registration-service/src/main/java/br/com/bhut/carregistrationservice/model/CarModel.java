@@ -4,7 +4,6 @@ import lombok.*;
 
 @Getter
 @NoArgsConstructor @AllArgsConstructor
-@ToString
 @Builder
 public class CarModel {
 
