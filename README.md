@@ -24,7 +24,7 @@ Legenda:
 
 ---> MÉTODO 1 (RECOMENDADO): <---
 
-1- Requisito: Possua ou baixe o [Docker](https://docs.docker.com/desktop/install/windows-install/)
+1- Requisito: Possua ou baixe o [Docker](https://docs.docker.com/desktop/install/windows-install/). Em seguida, execute-o.
 
 2- Faça o clone do projeto, ou baixe o arquivo ZIP do projeto e extraia em uma pasta desejada;
 
