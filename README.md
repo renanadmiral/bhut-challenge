@@ -48,7 +48,13 @@ Legenda:
 
 -- DOCUMENTAÇÃO DOS ENDPOINTS --
 
+GET localhost:9000/api/listCars -> Lista todos os carros provenientes da API externa.
 
+GET localhost:9000/api/logs -> Lista todos os logs de registro de carros provenientes da API de registro de carros.
+
+POST localhost:9000/api/createCar -> Cria um novo registro de carro na API externa. O corpo da requisição deve ser enviado em JSON com os seguintes parâmetros de dados:
+
+![image](https://user-images.githubusercontent.com/49658142/182190529-373a5aa3-7a89-472e-84f4-d9f899837cef.png)
 
 
 
