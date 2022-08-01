@@ -1,6 +1,6 @@
 Olá, sou Renan Admiral (renanadmiral@gmail.com) e bem vindo ao meu projeto para o processo seletivo da BHUT!
 
-A seguir está anexo a modelagem do sistema proposto, onde a arquitetura baseia-se em Microsserviços.
+A seguir está anexo a modelagem do sistema proposto, onde a arquitetura baseia-se em Microsserviços:
 
 ![image](https://user-images.githubusercontent.com/49658142/182177041-6e9cdbd9-3e5c-4e3b-859e-393e67371c63.png)
 
@@ -44,7 +44,7 @@ Legenda:
 
 3- abra todas as pastas do projeto com uma IDE de sua preferência e execute todas as API's;
 
-4- 5- Utilize o [Postman](https://www.postman.com/downloads/) ou outra ferramenta de envio de requisições HTTP para testar o projeto. (url da API: localhost:9000/api);
+4- Utilize o [Postman](https://www.postman.com/downloads/) ou outra ferramenta de envio de requisições HTTP para testar o projeto. (url da API: localhost:9000/api);
 
 -- DOCUMENTAÇÃO DOS ENDPOINTS --
 
