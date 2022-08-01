@@ -32,7 +32,7 @@ Legenda:
 
 ![image](https://user-images.githubusercontent.com/49658142/182187826-d3d6fe63-e21d-4f07-9cdc-c2c57d4f6280.png)
 
-4- Após o término dowload das imagens, aguarde o docker inicializar todos os contêineres. (Até todas as mensagens do prompt pararem de ser exibidas);
+4- Após o término do download das imagens, aguarde o docker inicializar todos os contêineres. (Até todas as mensagens do prompt pararem de ser exibidas);
 
 5- Utilize o [Postman](https://www.postman.com/downloads/) ou outra ferramenta de envio de requisições HTTP para testar o projeto. (url da API: localhost:9000/api);
 
