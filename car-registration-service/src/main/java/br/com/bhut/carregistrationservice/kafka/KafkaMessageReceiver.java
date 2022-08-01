@@ -29,10 +29,12 @@ public class KafkaMessageReceiver  {
 
         log.info("Kafka message received");
 
+        //sends new car to be posted on external API
         Optional<CarModel> optionalCar = Optional.ofNullable(
                 externalService.postNewCar(car)
         );
 
+        //Post validation, log creation and Webhook triggering
         if (optionalCar.isPresent()) {
 
             final String MESSAGE = "Car registered successfully";

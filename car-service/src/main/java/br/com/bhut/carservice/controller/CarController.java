@@ -23,6 +23,7 @@ public class CarController {
         return externalService.getAllCars();
     }
 
+    //Posts new car to kafka server
     @PostMapping("/createCar")
     @ResponseStatus(HttpStatus.CREATED)
     public CarModel postNewCar (@RequestBody CarModel car) {

@@ -17,7 +17,7 @@ import java.util.Map;
 @Configuration
 public class KafkaConfig {
 
-    @Value(value = "${kafka.address:localhost:9092}")
+    @Value(value = "${kafka.adress}")
     private String kafkaAddress;
 
     public ProducerFactory<String, CarModel> producerFactory() {

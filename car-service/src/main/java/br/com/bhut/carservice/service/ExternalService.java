@@ -8,11 +8,11 @@ import reactor.core.publisher.Flux;
 @Service
 public class ExternalService {
 
-    private final WebClient productWebClient = WebClient.create("http://api-test.bhut.com.br:3000");
+    private final WebClient externalWebClient = WebClient.create("http://api-test.bhut.com.br:3000");
 
     public Flux<CarModel> getAllCars() {
 
-        return productWebClient.get()
+        return externalWebClient.get()
                 .uri("/api/cars")
                 .retrieve()
                 .bodyToFlux(CarModel.class);

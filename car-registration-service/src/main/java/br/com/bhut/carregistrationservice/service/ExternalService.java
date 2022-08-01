@@ -13,11 +13,13 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 @Slf4j
 public class ExternalService {
-    private final WebClient productWebClient = WebClient.create("http://api-test.bhut.com.br:3000");
 
+    private final WebClient externalWebClient = WebClient.create("http://api-test.bhut.com.br:3000");
+
+    //tries to post a new car, if fails, return an empty object.
     public CarModel postNewCar(CarModel carModel) {
 
-        return productWebClient.post()
+        return externalWebClient.post()
                 .uri("/api/cars")
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(Mono.just(carModel), CarModel.class)
