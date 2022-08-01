@@ -14,11 +14,11 @@ Legenda:
 
 4- "Car Registration Microservice" -> API própria, possui a função de receber mensagens da fila Kafka para processar e enviar um carro novo para a API externa. Além disso, também envia um registro Log para um banco de dados MongoDB;
 
-4- "MongoDB New Cars Log" -> Banco de dados NoSQL MongoDB para armazenar logs de novos carros registrados;
+5- "MongoDB New Cars Log" -> Banco de dados NoSQL MongoDB para armazenar logs de novos carros registrados;
 
-5- "Webhook POST (Console log)" -> Webhook configurado entre as duas API's próprias para sinalizar casos de sucesso e falha durante o registro de um novo carro;
+6- "Webhook POST (Console log)" -> Webhook configurado entre as duas API's próprias para sinalizar casos de sucesso e falha durante o registro de um novo carro;
 
-6- "Gateway" -> API de gateway apenas com o objetivo de centralizar os endpoints externos e proteger os endpoints internos;
+7- "Gateway" -> API de gateway apenas com o objetivo de centralizar os endpoints externos e proteger os endpoints internos;
 
 -- INSTRUÇÕES DE EXECUÇÃO DO PROJETO --
 
