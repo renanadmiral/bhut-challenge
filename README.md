@@ -1,4 +1,4 @@
-Olá, sou Renan Admiral (renanadmiral@gmail.com) e bem vindo ao meu projeto para o processo seletivo da BHUT! <span style="color:red">some **This is Red Bold.** text</span>
+Olá, sou Renan Admiral (renanadmiral@gmail.com) e bem vindo ao meu projeto para o processo seletivo da BHUT!
 
 A seguir está anexo a modelagem do sistema proposto, onde a arquitetura baseia-se em Microsserviços:
 
